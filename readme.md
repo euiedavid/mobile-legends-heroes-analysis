@@ -6,7 +6,7 @@ This project focuses on Mobile Legends: Bang Bang (MLBB) hero and esports statis
 The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/kishan9044/mobile-legends-bang-bang?resource=download) and contains hero statistics up to Mobile Legends Version 1.7.20, released on September 20, 2022.
 The dataset was stored locally in a PostgreSQL database for data management. SQL queries were used to create the database, create and modify tables, and extract data for analysis. The SQL scripts can be found in the [load_sql](/load_sql/) directory.
 
-Python was also used to perform exploratory data analysis with Pandas and create data visualizations using Seaborn and Matplotlib. The code is available in the [notebook](/mlbb_eda.ipynb/), while the resulting charts can be viewed in the [charts_from_python](/charts_from_python/) directory.
+Python was also used to perform exploratory data analysis with Pandas and create data visualizations using Seaborn and Matplotlib. The code is available in the [notebook](./notebook/mlbb_eda.ipynb), while the resulting charts can be viewed in the [charts_from_python](/charts_from_python/) directory.
 
 # Background
 As an MLBB player, I became curious about the game's heroes and wanted to better understand their roles, attributes, and competitive performance. This curiosity motivated me to explore the available hero statistics and gain a deeper understanding of the game's roster.
