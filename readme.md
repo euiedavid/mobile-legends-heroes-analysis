@@ -67,7 +67,7 @@ The dataset consists of 114 heroes distributed across six primary roles: Fighter
 
 - The analysis of the Mobile Legends: Bang Bang (MLBB) hero dataset revealed several patterns in hero distribution, base attributes, esports performance, and release trends.
 
-![charts_from_python](charts_from_python\image.png)
+![Hero Distribution by Role](charts_from_python/image.png)
 
 | Primary Role | Total Count | Role Percentage |
 |:-------------|------------:|----------------:|
@@ -108,7 +108,7 @@ The findings show differences in the average base attributes across hero roles. 
 
 - Tanks and Fighters generally lead in the three attributes analyzed. Tanks have the highest average HP and physical damage, while Fighters have the highest average physical defense.
 
-![charts_from_pyhton](charts_from_python\image2.png)
+![Hero Statistics by Role](charts_from_python/image2.png)
 
 | Primary Role | Average HP | Average Physical Damage | Average Physical Defense |
 |:-------------|-----------:|------------------------:|-------------------------:|
@@ -158,7 +158,7 @@ This highlights the distinction between win rate and match volume: a high win pe
 
 - Some heroes, such as Vexana and Miya, achieved relatively high win rates despite having considerably fewer esports appearances. Their results should be interpreted with caution because smaller match samples can make win rates less representative.
 
-![charts_from_python](charts_from_python\image3.png)
+![Esports Performance Analysis](charts_from_python/image3.png)
 
 | Hero | Primary Role | Esports Wins | Esports Losses | Total Matches Played | Win Rate |
 |:-----|:-------------|-------------:|---------------:|---------------------:|---------:|
@@ -207,7 +207,7 @@ The subsequent decline suggests that the pace of introducing new heroes slowed o
 
 - Overall, the findings indicate a downward trend in annual hero releases, particularly after 2017. The number of new heroes introduced declined from 25 in 2017 to just 5 in 2022.
 
-![charts_from_python](charts_from_python\image4.png)
+![Hero Release Trends](charts_from_python/image4.png)
 
 | Release Year | Hero Count |
 |-------------:|-----------:|
@@ -261,7 +261,7 @@ The results show that a strong combined ranking can come from different statisti
 
 - Fighter was the most represented role, accounting for 7 of the top 10 heroes, followed by 2 Tanks and 1 Support.
 
-![charts_from_python](charts_from_python\image5.png)
+![Hero Attribute Ranking](charts_from_python/image5.png)
 
 | Hero | Primary Role | Damage Rank | Defense Rank | Combined Stats |
 |:-----|:-------------|------------:|-------------:|---------------:|
